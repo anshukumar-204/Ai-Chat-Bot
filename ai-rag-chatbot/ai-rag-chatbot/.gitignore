@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+build/
+server/uploads/*
+server/vectorstore/*
+!server/uploads/.gitkeep
+!server/vectorstore/.gitkeep
+*.log
+.DS_Store
+.vscode/
+coverage/

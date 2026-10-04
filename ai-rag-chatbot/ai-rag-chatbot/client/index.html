@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudyBuddy AI — Chat with your notes</title>
+    <script>
+      tailwind = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: "#4F46E5",
+                dark: "#3730A3",
+                light: "#E0E7FF",
+              },
+              secondary: { DEFAULT: "#14B8A6", light: "#CCFBF1" },
+              accent: { DEFAULT: "#FF7A59", light: "#FFE4DB" },
+              highlight: { DEFAULT: "#F59E0B", light: "#FEF3C7" },
+              info: { DEFAULT: "#0EA5E9", light: "#E0F2FE" },
+              danger: { DEFAULT: "#EF4444", light: "#FEE2E2" },
+              app: "var(--bg)",
+              surface: "var(--surface)",
+              surface2: "var(--surface-2)",
+              line: "var(--border)",
+              ink: "var(--text)",
+              muted: "var(--text-muted)",
+            },
+            borderRadius: { xl2: "1rem" },
+            boxShadow: { card: "var(--shadow)" },
+            fontFamily: { sans: ["Poppins", "Inter", "sans-serif"] },
+          },
+        },
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
